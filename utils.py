@@ -1,7 +1,7 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, DIRECT_GEN, DIRECT_GEN_DB, DIRECT_GEN_URL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, IS_SHORTLINK, LOG_CHANNEL, TUTORIAL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION, HOW_TO_VERIFY
-from imdb import Cinemagoer 
+from info import AUTH_CHANNEL, PREMIUM_USER, DIRECT_GEN, DIRECT_GEN_DB, DIRECT_GEN_URL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, IS_SHORTLINK, LOG_CHANNEL, TUTORIAL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION, HOW_TO_VERIFY
+from imdb import Cinemagoer
 import asyncio
 from urllib.parse import quote_plus
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
